@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+img{
+  width: 200px;
+}
+div{
+  border: 2px solid black;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.IdCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
